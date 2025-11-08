@@ -4,6 +4,12 @@ Todo application with authentication and admin panel.
 
 ## Quick Start
 
+### Make scripts executable
+
+```bash
+chmod +x setup.sh stop.sh
+```
+
 ### Start all services
 
 ```bash
@@ -60,5 +66,5 @@ cd frontend && docker-compose down
 
 After first setup, you can login with:
 
-- **Username**: `admin`
+- **Username**: `admin@example.com`
 - **Password**: `admin123`
